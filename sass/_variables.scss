@@ -14,6 +14,7 @@ $teal: rgba(37, 75, 90, 1);
 
 // FONTS 
 $font-stack: Poppins, sans-serif;
+$section-title: font($font-stack, 2.75rem, 600, 3.25rem, $bodyColor);
 
 // PADDING
 $sectionPadding: 4rem 0;
