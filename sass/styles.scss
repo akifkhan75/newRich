@@ -15,6 +15,7 @@
     @include small-phone-only {
         .navbar-nav {
             align-items: flex-start;
+
             .nav-item {
                 padding: 0.5rem
             }
@@ -631,7 +632,8 @@
 
 // HOW IT WORKS
 .how-it-works {
-    background: #1D1D1D;;
+    background: #1D1D1D;
+    ;
     padding: 4rem 0;
     @include flex(flex, center, center, );
 
@@ -802,7 +804,7 @@
                 }
             }
 
-            @include for-tablet{
+            @include for-tablet {
                 font-size: 1rem;
                 line-height: normal;
             }
@@ -923,7 +925,7 @@
                 margin-bottom: 1.5rem;
                 min-height: 3.25rem;
 
-                @include for-tablet{
+                @include for-tablet {
                     font-size: 1.25rem;
                     min-height: 1rem;
                     margin-bottom: 0.7rem;
@@ -932,7 +934,7 @@
                 span {
                     @include font($font-stack, 1rem, 600, 3.25rem, $bodyColor);
 
-                    @include for-tablet{
+                    @include for-tablet {
                         font-size: 0.875rem;
                     }
                 }
@@ -946,7 +948,7 @@
                 text-align: center;
                 white-space: normal;
 
-                @include for-tablet{
+                @include for-tablet {
                     font-size: 0.875rem;
                     margin-bottom: 0.75rem;
                 }
@@ -956,7 +958,7 @@
                 margin-top: 4.13rem;
                 text-align: center;
 
-                @include for-tablet{
+                @include for-tablet {
                     margin-top: 1.5rem;
                 }
 
@@ -1113,7 +1115,7 @@
             padding: 1.5rem;
         }
 
-        @include for-tablet{
+        @include for-tablet {
             padding: 1.5rem;
             padding-bottom: 0;
         }
@@ -1136,6 +1138,11 @@
                 width: 14.9375rem;
                 height: 8.375rem;
             }
+
+            @include for-tablet {
+                width: 24.4375rem;
+                height: 13.625rem;
+            }
         }
 
         .text {
@@ -1157,7 +1164,7 @@
                 @include for-tablet {
                     font-size: 1.5rem;
                     line-height: normal;
-                    margin-bottom: 1rem;
+                    margin-bottom: 1.5rem;
                 }
             }
 
@@ -1168,6 +1175,13 @@
                 @include small-phone-only {
                     font-size: 0.875rem;
                     text-align: center;
+                }
+
+                @include for-tablet {
+                    font-size: 1rem;
+                    font-weight: 500;
+                    line-height: normal;
+                    margin-bottom: 0.5rem;
                 }
 
             }
@@ -1310,7 +1324,7 @@
         border-radius: 0.75rem;
 
         @include small-phone-only {
-             padding: 1.2rem 0.9rem;
+            padding: 1.2rem 0.9rem;
         }
 
         @include for-tablet {
@@ -1401,12 +1415,12 @@ footer {
         border-top: solid 1px $white;
         @include flex(flex, center, space-between);
 
-        @include small-phone-only{
+        @include small-phone-only {
             flex-direction: column;
             height: 100%;
         }
 
-        
+
 
         .social-links {
             @include flex(flex, center, center);
