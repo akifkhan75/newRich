@@ -35,7 +35,7 @@
         &.dropdown-toggle {
             &::after {
                 content: '';
-                background: url(/assets/icons/plus.svg);
+                background: url(assets/icons/plus.svg);
                 width: 18px;
                 height: 18px;
                 border: 0;
@@ -60,7 +60,7 @@
             &.dropdown-toggle {
                 &::after {
                     content: '';
-                    background: url(/assets/icons/angle-right.svg);
+                    background: url(assets/icons/angle-right.svg);
                     width: 10px;
                     height: 10px;
                     border: 0;
@@ -83,7 +83,7 @@
 // HERO
 .hero {
     .hero-wrapper {
-        background: url(/assets/images/hero-bg-1.svg);
+        background: url(assets/images/hero-bg-1.svg);
         background-repeat: no-repeat;
         background-position: 100% 100%;
         min-height: 38rem;
@@ -135,7 +135,7 @@
 
                 &::after {
                     content: '';
-                    background: url(/assets/icons/green-arrow.svg);
+                    background: url(assets/icons/green-arrow.svg);
                     position: absolute;
                     top: -0.8rem;
                     right: -0.7rem;
@@ -720,7 +720,7 @@
 
                 &::after {
                     content: '';
-                    background: url(/assets/icons/arrow-even.svg);
+                    background: url(assets/icons/arrow-even.svg);
                     position: absolute;
                     width: 1.68744rem;
                     height: 5.93563rem;
@@ -760,7 +760,7 @@
                 }
 
                 .item-image::after {
-                    background: url(/assets/icons/arrow-odd.svg);
+                    background: url(assets/icons/arrow-odd.svg);
                     left: -0.6rem;
 
                     @include for-tablet {
@@ -1071,7 +1071,7 @@
                     content: '';
                     width: 1.5rem;
                     height: 1.5rem;
-                    background: url(/assets/icons/check-square.svg);
+                    background: url(assets/icons/check-square.svg);
                     position: absolute;
                     left: -0.7rem;
                 }
@@ -1131,7 +1131,7 @@
 
         &::after {
             content: '';
-            background: url(/assets/images/subscribe-bg.svg);
+            background: url(assets/images/subscribe-bg.svg);
             background-repeat: no-repeat;
             background-size: 100%;
             position: absolute;
