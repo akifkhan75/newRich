@@ -161,6 +161,10 @@
                     top: 12rem;
                 }
 
+                @include for-tablet {
+                    top: 8rem;
+                }
+
                 h4 {
                     @include font($font-stack, 1.25rem, 500, normal, $white);
                 }
@@ -197,6 +201,11 @@
 
                 @include small-phone-only {
                     right: 1rem;
+                }
+
+                @include for-tablet {
+                    right: 1rem;
+                    top: 3rem;
                 }
 
                 img {

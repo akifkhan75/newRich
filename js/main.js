@@ -70,3 +70,27 @@ function toggleAccordion() {
     item.classList.remove('is-open');
   });
 }
+
+// HERO ANIMATION
+var chat1 = document.querySelector('#chat-1');
+var chat2 = document.querySelector('#chat-2');
+var tag = document.querySelector('#saasTag');
+var supportTag = document.querySelector('#supportTag');
+
+var layer = document.querySelector('#main');
+
+layer.addEventListener('mousemove', function(e){
+  var ivalueX= (e.pageX * -1 / 30);
+  var ivalueY= (e.pageY * -1 / 30);
+  var cvalueX= (e.pageX * -1 / 40);
+  var cvalueY= (e.pageY * -1 / 60);
+  var jvalueX= (e.pageX * -1 / 40);
+  var jvalueY= (e.pageY * -1 / 40);
+  var dvalueX= (e.pageX * -1 / 50);
+  var dvalueY= (e.pageY * -1 / 70);
+  console.log('ok');
+  chat1.style.transform = 'translate3d('+ivalueX+'px,'+ivalueY+'px, 0)';
+  chat2.style.transform = 'translate3d('+cvalueX+'px,'+cvalueY+'px, 0)';
+  tag.style.transform = 'translate3d('+jvalueX+'px,'+jvalueY+'px, 0)';
+  supportTag.style.transform = 'translate3d('+dvalueX+'px,'+dvalueY+'px, 0)';
+});
